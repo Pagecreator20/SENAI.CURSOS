@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #ffffff; /* cor azul escuro do SENAI */
+    padding: 10px;
+    text-align: left;
+}
+
+header img {
+    width: 150px;
+    
+}
+
+nav {
+    background-color: #166abe; /* azul claro para o menu */
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: left;
+}
+
+nav ul li {
+    margin: 0;
+    border-right: 2px solid white;
+}
+
+nav ul li a {
+    display: block;
+    padding: 14px 20px;
+    color: white;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #004080;
+}
+
+.container {
+    max-width: 1000px;   /* ou 1200px, ajuste como quiser */
+    margin: 0 auto;      /* centraliza horizontalmente */
+    padding: 0 20px;     /* adiciona um "respiro" nas bordas internas */
+
+}
+
