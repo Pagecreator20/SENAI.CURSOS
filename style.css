@@ -44,9 +44,25 @@ nav ul li a:hover {
 }
 
 .container {
-    max-width: 1000px;   /* ou 1200px, ajuste como quiser */
+    max-width: 3000px;   /* ou 1200px, ajuste como quiser */
     margin: 0 auto;      /* centraliza horizontalmente */
     padding: 0 20px;     /* adiciona um "respiro" nas bordas internas */
 
 }
+
+.banner-container {
+  max-width: 1600px;      /* mesma largura do menu */
+  margin: 20px auto;     /* centraliza e dá espaçamento em cima e embaixo */
+  border-radius: 5px;    /* cantos arredondados opcionais */
+  overflow: hidden;      /* para garantir bordas arredondadas na imagem */
+  box-shadow: 0 8px 8px rgba(0,0,0,0.2);
+}
+
+.banner-container img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  max-height: 300px;     /* altura máxima do banner */
+}
+
 
