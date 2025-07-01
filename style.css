@@ -1,68 +1,101 @@
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: white;
 }
 
+/* HEADER COM LOGO */
 header {
-    background-color: #ffffff; /* cor azul escuro do SENAI */
-    padding: 10px;
-    text-align: left;
+  background-color: #ffffff;
+  padding: 10px;
+  text-align: left;
 }
 
 header img {
-    width: 150px;
-    
+  width: 150px;
 }
 
+/* MENU */
 nav {
-    background-color: #166abe; /* azul claro para o menu */
+  background-color: #166abe;
 }
 
 nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: left;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: left;
 }
 
 nav ul li {
-    margin: 0;
-    border-right: 2px solid white;
+  margin: 0;
+  border-right: 2px solid white;
 }
 
 nav ul li a {
-    display: block;
-    padding: 14px 20px;
-    color: white;
-    text-decoration: none;
-    transition: background 0.3s;
+  display: block;
+  padding: 14px 20px;
+  color: white;
+  text-decoration: none;
+  transition: background 0.3s;
 }
 
 nav ul li a:hover {
-    background-color: #004080;
+  background-color: #004080;
 }
 
 .container {
-    max-width: 3000px;   /* ou 1200px, ajuste como quiser */
-    margin: 0 auto;      /* centraliza horizontalmente */
-    padding: 0 20px;     /* adiciona um "respiro" nas bordas internas */
-
+  max-width: 3000px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
+/* BANNER */
 .banner-container {
-  max-width: 1600px;      /* mesma largura do menu */
-  margin: 20px auto;     /* centraliza e dá espaçamento em cima e embaixo */
-  border-radius: 5px;    /* cantos arredondados opcionais */
-  overflow: hidden;      /* para garantir bordas arredondadas na imagem */
-  box-shadow: 0 8px 8px rgba(0,0,0,0.2);
+  max-width: 1600px;
+  margin: 20px auto;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.2);
 }
 
 .banner-container img {
   width: 100%;
   display: block;
   object-fit: cover;
-  max-height: 300px;     /* altura máxima do banner */
+  max-height: 300px;
 }
+
+/* VÍDEOS NO CANTO DIREITO */
+.videos-container {
+  width: 420px; /* largura fixa */
+  margin: 30px 30px 30px auto; /* canto direito da tela */
+  padding: 15px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+  right: 0;
+}
+
+.videos-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #004080;
+}
+
+.video-wrapper {
+  margin-bottom: 20px;
+}
+
+.video-wrapper iframe {
+  width: 100%;
+  height: 230px;
+  border-radius: 6px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+
 
 
